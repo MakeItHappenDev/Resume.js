@@ -1,0 +1,38 @@
+{
+    "data":{
+        "fetchResumes":[
+            {
+                "lang":"en",
+                "pages":[
+                    {
+                        "name":"Resume",
+                        "data":[]
+                    },
+                    {
+                        "name":"Portfolio",
+                        "data":[]
+                    }
+                ],
+                "metadata":{
+                    "name":"Arthur Juchereau"
+                }
+            },
+            {
+                "lang":"fr",
+                "pages":[
+                    {
+                        "name":"CV",
+                        "data":[]
+                    },
+                    {
+                        "name":"Portfolio",
+                        "data":[]
+                    }
+                ],
+                "metadata":{
+                    "name":"Arthur Juchereau"
+                }
+            }
+        ]
+    }
+}
