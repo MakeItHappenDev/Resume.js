@@ -24,7 +24,7 @@ exports.createPages = async ({ actions }) => {
     data.forEach(async resume => {
         //resume = resume in one specific language
         await createPage({
-            path:`/${resume.lang}`,
+            path:`/${resume.lang.toLowerCase()}`,
             component:templatePage,
             context:{
                 lang:resume.lang,
@@ -39,7 +39,7 @@ exports.createPages = async ({ actions }) => {
         resume.pages.forEach(async page => {
             //page = a section of the resume
             await createPage({
-                path:`/${resume.lang}/${page.name}`,
+                path:`/${resume.lang.toLowerCase()}/${page.name.toLowerCase()}`,
                 component:templatePage,
                 context:{
                     lang:resume.lang,

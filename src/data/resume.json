@@ -6,7 +6,75 @@
                 "pages":[
                     {
                         "name":"Resume",
-                        "data":[]
+                        "data":[
+                            {
+                                "title":"Skillsets",
+                                "data":[
+                                    {
+                                        "type":"skillset",
+                                        "title":"FrontEnd",
+                                        "subskills":[
+                                            "HTML5",
+                                            "CSS 2/3/4",
+                                            "JavaScript ES5/ES6/ES7",
+                                            "React (Nextjs/gatsby/vanilla)"
+                                        ]
+                                    },
+                                    {
+                                        "type":"skillset",
+                                        "title":"Backend",
+                                        "subskills":[
+                                            "Dedicated/Virtual server admistration (Linux)",
+                                            "Mongo, Express, React stack",
+                                            "SQL/noSQL databases",
+                                            "Linux, Apache, MySql, PHP stack",
+                                            "SSL certifications"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "title":"Experiences",
+                                "data":[
+                                    {
+                                        "type":"experience",
+                                        "date":"2019 - present",
+                                        "title":"Founder MakeItHappen.dev",
+                                        "description":"Platform to collect problems/ideas from users, link them in communities share those and finding solution providers willing the help them make it happen",
+                                        "location":"Gatineau, Quebec, Canada"
+                                    },
+                                    {
+                                        "type":"experience",
+                                        "date":"2014, 2019",
+                                        "title":"Header developer at the Canadian Research Chair of Digital Textualities",
+                                        "description":"Development of custom platforms aimed at academics.\nThis includes development in PHP/SQLite/HTML5 and Node.js/Sails/React/Redux and dealing with datafiles extensively like XML/JSON/YaML",
+                                        "location":"Montreal,Quebec, Canada"
+                                    }
+                                ]
+
+                            },
+                            {
+                                "title":"Education",
+                                "data":[
+                                    {
+                                        "type":"education",
+                                        "date":"2013, 2014",
+                                        "title":"Art, Creation and Technologies",
+                                        "level":"Post graduate Diploma",
+                                        "institution":"University of Montreal",
+                                        "location":"Montreal,Quebec, Canada"
+                                    },
+                                    {
+                                        "type":"education",
+                                        "date":"2010, 2013",
+                                        "title":"Network Architecture and Web development",
+                                        "level":"Master",
+                                        "institution":"Université Pierre et Marie Curie (Paris VI)",
+                                        "location":"Paris, France"
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name":"Portfolio",
@@ -14,7 +82,35 @@
                     }
                 ],
                 "metadata":{
-                    "name":"Arthur Juchereau"
+                    "name":"Arthur Juchereau",
+                    "location":"Gatineau, Quebec, Canada",
+                    "contact":"arthur@juchereau.com",
+                    "summary":"Full stack developer \n Founder of MakeItHappen.dev, former Head developer for the Canadian Research Chair of Digital textualities, former CTO of LaunchLeap",
+                    "languages":[
+                        {
+                            "name":"English",
+                            "level":"fluent"
+                        },
+                        {
+                            "name":"French",
+                            "level":"Native"
+                        },
+                        {
+                            "name":"German",
+                            "level":"functionnal"
+                        }
+                    ],
+                    "links":[
+                        {
+                            "text":"@ArthurBienSur",
+                            "url":"https://twitter.com/ArthurBienSur"
+                        },
+                        {
+                            "text":"Github",
+                            "url":"https://github.com/PookMook"
+                        }
+                    ]
+
                 }
             },
             {
@@ -30,7 +126,34 @@
                     }
                 ],
                 "metadata":{
-                    "name":"Arthur Juchereau"
+                    "name":"Arthur Juchereau",
+                    "location":"Gatineau, Quebec, Canada",
+                    "contact":"arthur@juchereau.com",
+                    "summary":"Developpeur Full Stack \n Fondateur de MakeItHappen.dev, ancien Developper principal de la Chaire de Recherche de Canada sur les Écritures Numériques, ancien CTO de Launchleap",
+                    "languages":[
+                        {
+                            "name":"Anglais",
+                            "level":"expert"
+                        },
+                        {
+                            "name":"Français",
+                            "level":"Natif"
+                        },
+                        {
+                            "name":"Allemand",
+                            "level":"functionnel"
+                        }
+                    ],
+                    "links":[
+                        {
+                            "text":"@ArthurBienSur",
+                            "url":"https://twitter.com/ArthurBienSur"
+                        },
+                        {
+                            "text":"Github",
+                            "url":"https://github.com/PookMook"
+                        }
+                    ]
                 }
             }
         ]
