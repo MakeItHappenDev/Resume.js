@@ -11,10 +11,7 @@ Building a Resume from a JSON file using Gatsby and deploying to now.sh / zeit.c
 
 # How to deploy
 
- - Clone the repo
- - install now CLI
- - create a now account
-
-`
-now --prod
-`
+ - Clone the repo `git clone https://github.com/MakeItHappenDev/Resume.js.git` 
+ - Update the src/data/resume.json with your informations
+ - install now CLI then create an account (https://zeit.co/docs)
+ - Deploy to now serverless infrastructure `now --prod`
