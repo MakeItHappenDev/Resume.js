@@ -21,7 +21,7 @@ exports.createPages = async ({ actions }) => {
 
     //Create the /lang pages
 
-    data.forEach(resume => {
+    data.forEach(async resume => {
         //resume = resume in one specific language
         await createPage({
             path:`/${resume.lang}`,
@@ -36,7 +36,7 @@ exports.createPages = async ({ actions }) => {
         })
 
         //Create /lang/page pages
-        resume.pages.forEach(page => {
+        resume.pages.forEach(async page => {
             //page = a section of the resume
             await createPage({
                 path:`/${resume.lang}/${page.name}`,
