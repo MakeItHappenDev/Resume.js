@@ -1,8 +1,4 @@
 import React from 'react'
-import Skillsets from './skillsets'
-import Langs from './langs'
-import Links from './links'
-import Summary from './summary'
 
 export default (props) => {
     return(
@@ -10,10 +6,18 @@ export default (props) => {
             <h1>{props.meta.name}</h1>
             <p>{props.meta.location}</p>
             <p>{props.meta.contact}</p>
-            <Summary {...props.meta.summary}/>
-            <Langs {...props.meta.languages}/>
-            <Skillsets {...props.meta.skillsets}/>
-            <Links {...props.meta.links}/>
+            <Profile {...props.meta.profile}/>
         </section>
     )
 }
+
+const Profile = (props) => {
+    return(
+      <>
+        <h2>{props.title}</h2>
+        <ul id="profile">
+                {props.data.map((s,i)=><li key={`summary-${i}`}>{s}</li>)}
+        </ul>
+      </>
+    )
+  }
