@@ -57,7 +57,7 @@
                                     {
                                         "type":"experience",
                                         "date":"2014, 2019",
-                                        "title":"Header developer at the Canadian Research Chair of Digital Textualities",
+                                        "title":"Head developer at the Canadian Research Chair of Digital Textualities",
                                         "description":"Development of custom platforms aimed at academics.\nThis includes development in PHP/SQLite/HTML5 and Node.js/Sails/React/Redux and dealing with datafiles extensively like XML/JSON/YaML",
                                         "location":"Montreal, Quebec, Canada"
                                     },
@@ -80,7 +80,7 @@
                                         "title":"Art, Creation and Technologies",
                                         "level":"Post graduate Diploma",
                                         "institution":"University of Montreal",
-                                        "location":"Montreal,Quebec, Canada"
+                                        "location":"Montreal, Quebec, Canada"
                                     },
                                     {
                                         "type":"education",
@@ -154,7 +154,7 @@
                     "name":"Arthur Juchereau",
                     "location":"Gatineau, Quebec, Canada",
                     "contact":"arthur@juchereau.com",
-                    "summary":"Full stack developer \n Founder of MakeItHappen.dev, former Head developer for the Canadian Research Chair of Digital textualities, former CTO of LaunchLeap",
+                    "summary":"Full stack developer \n Founder of MakeItHappen.dev,\n former Head developer for\n the Canadian Research Chair of Digital textualities,\n former CTO of LaunchLeap",
                     "languages":[
                         {
                             "name":"English",

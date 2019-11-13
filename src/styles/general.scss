@@ -1,0 +1,157 @@
+@import './reset.scss';
+
+    $link: #8ad3ff;
+    $mildHL: #c5ffa4;
+    $color: #c0c0c0;
+    $bgColor : #505050;
+    $bgSection: #303030;
+    $lines:#738574;
+a {
+    color:$link;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+body{
+    background-color:$bgColor;
+    color:$color;
+}
+
+#___gatsby{
+    > div {
+        display:grid;
+        grid-template:
+        "navigation" auto
+        "meta" auto
+        "page" auto
+        / auto;
+        width:100%;
+        max-width: 900px;
+        @media screen and (min-width:900px){
+            grid-template:
+        "navigation navigation" auto
+        "page meta" auto
+        / 2fr 1fr;
+        max-width: 1100px;
+        }
+        @media print{
+            grid-template:
+            "page meta" auto
+            / 2fr 1fr;
+        }
+        margin:0 auto;
+        grid-gap: 0.5rem;
+        > header#header {
+            padding:1rem;
+            grid-area: navigation;
+            display:grid;
+            background-color:$bgSection;
+            @media print {
+                display:none;
+            }
+            grid-template:
+            "pages ... langs" auto
+            / auto 1fr auto;
+            > nav {
+                > a {
+                    display:inline-block;
+                    margin-right:1rem;
+                }
+                > a:last-child{
+                    margin-right:0
+                }
+            }
+            > nav:first-child{
+                grid-area: pages;
+            }
+            > nav + nav {
+                grid-area: langs;
+            }
+        }
+        > section#meta {
+            padding:1rem;
+            background-color:$bgSection;
+            grid-area: meta;
+            text-align: center;
+            @media screen and (min-width:900px){
+                text-align: right;
+            }
+            >h1 {
+                font-size: 1.15rem;
+                font-weight: bold;
+                margin-bottom:0.5rem;
+                color: $mildHL;
+                @media screen and (min-width:900px){
+                    border-bottom:1px solid $lines;
+                    padding-bottom:0.5rem;
+                }
+            }
+            > p {
+                margin:0.5rem 0;
+                > span {
+                    display:inline-block
+                }
+                > span + span {
+                    margin-left:0.5rem;
+                }
+            }
+            > ul {
+                margin-bottom: 0.5rem;
+            }
+        }
+        > section#page {
+            padding:1rem;
+            background-color:$bgSection;
+            grid-area: page;
+            > article{
+                margin-bottom: 1rem;
+                > h2 {
+                    font-size: 1.15rem;
+                    padding-bottom: 0.5rem;
+                    color:$mildHL;
+                    border-bottom:1px solid $lines;
+                }
+                > p.skillset {
+                    border-bottom:1px solid $lines;
+                    padding:0.5rem 0;
+                    > strong {
+                        color:$mildHL;
+                    }
+                }
+                > article.experience, article.education {
+                    padding:0.5rem 0;
+                    border-bottom:1px solid $lines;
+                    display:grid;
+                    grid-template: 
+                    "date title location" auto
+                    "date description location" auto
+                    / 100px 1fr 100px;
+                    @media screen and (max-width:500px){
+                        grid-template: 
+                        "title title" auto
+                        "description description" auto
+                        "date location" auto
+                        / 1fr 1fr;
+                    }
+                    grid-gap: 0.25rem 0.5rem;
+                    > p.date{
+                        grid-area: date;
+                        align-self: center;
+                    }
+                    > h3 {
+                        grid-area: title;
+                        color:$mildHL;
+                    }
+                    > p.desc {
+                        grid-area:description
+                    }
+                    > p.location {
+                        grid-area:location;
+                        align-self: center;
+                    }
+                }
+            }
+        }
+    }
+}
+

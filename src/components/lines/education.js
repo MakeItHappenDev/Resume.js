@@ -4,13 +4,11 @@ import React from 'react'
 export default (props) => {
 
     return(
-        <article>
-            <p>{props.date}</p>
-            <div>
-                <h1>{props.level}: {props.title}</h1>
-                <p>{props.institution}</p>
-            </div>
-            <p>{props.location}</p>
+        <article className="education">
+            <p className="date">{props.date}</p>
+            <h3>{props.level}: {props.title}</h3>
+            <p className="desc">{props.institution}</p>
+            <p className="location">{props.location}</p>
         </article>
     )
 }

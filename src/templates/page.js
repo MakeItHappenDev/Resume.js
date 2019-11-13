@@ -4,6 +4,8 @@ import Header from '../components/header'
 import Meta from '../components/meta'
 import Section from '../components/section'
 
+import '../styles/general.scss'
+
 export default ({pageContext}) => {
     return(
         <>  
