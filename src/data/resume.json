@@ -8,43 +8,6 @@
                         "name":"Resume",
                         "data":[
                             {
-                                "title":"Skillsets",
-                                "data":[
-                                    {
-                                        "type":"skillset",
-                                        "title":"FrontEnd",
-                                        "subskills":[
-                                            "HTML5",
-                                            "CSS 2/3/4",
-                                            "JavaScript ES5/ES6/ES7",
-                                            "React (Nextjs/gatsby/vanilla)"
-                                        ]
-                                    },
-                                    {
-                                        "type":"skillset",
-                                        "title":"Backend",
-                                        "subskills":[
-                                            "Dedicated/Virtual server admistration (Linux)",
-                                            "Mongo, Express, React stack",
-                                            "SQL/noSQL databases",
-                                            "Linux, Apache, MySql, PHP stack",
-                                            "SSL certifications"
-                                        ]
-                                    },
-                                    {
-                                        "type":"skillset",
-                                        "title":"Audio/Video",
-                                        "subskills":[
-                                            "Video transcoding",
-                                            "DSLR operation",
-                                            "audio/video/photo captation",
-                                            "Adobe suite",
-                                            "Studio/lighting setup"
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
                                 "title":"Experiences",
                                 "data":[
                                     {
@@ -154,32 +117,79 @@
                     "name":"Arthur Juchereau",
                     "location":"Gatineau, Quebec, Canada",
                     "contact":"arthur@juchereau.com",
-                    "summary":"Full stack developer \n Founder of MakeItHappen.dev,\n former Head developer for\n the Canadian Research Chair of Digital textualities,\n former CTO of LaunchLeap",
-                    "languages":[
-                        {
-                            "name":"English",
-                            "level":"fluent"
-                        },
-                        {
-                            "name":"French",
-                            "level":"Native"
-                        },
-                        {
-                            "name":"German",
-                            "level":"functionnal"
-                        }
-                    ],
-                    "links":[
-                        {
-                            "text":"@ArthurBienSur",
-                            "url":"https://twitter.com/ArthurBienSur"
-                        },
-                        {
-                            "text":"Github",
-                            "url":"https://github.com/PookMook"
-                        }
-                    ]
-
+                    "summary":{
+                        "title":"Profile",
+                        "data":[
+                            "Full stack developer",
+                            "Founder of MakeItHappen.dev",
+                            "Former Head developer for the Canadian Research Chair of Digital textualities",
+                            "former CTO of LaunchLeap"
+                        ]
+                    },
+                    "languages":{
+                        "title":"Languages",
+                        "data":[
+                            {
+                                "name":"English",
+                                "level":"fluent"
+                            },
+                            {
+                                "name":"French",
+                                "level":"Native"
+                            },
+                            {
+                                "name":"German",
+                                "level":"functionnal"
+                            }
+                        ]
+                    },
+                    "links":{
+                        "title":"Links",
+                        "data":[
+                            {
+                                "text":"@ArthurBienSur",
+                                "url":"https://twitter.com/ArthurBienSur"
+                            },
+                            {
+                                "text":"Github",
+                                "url":"https://github.com/PookMook"
+                            }
+                        ]
+                    },
+                    "skillsets":{
+                        "title":"Skillsets",
+                        "data":[
+                            {
+                                "title":"FrontEnd",
+                                "subskills":[
+                                    "HTML5",
+                                    "CSS 2/3/4",
+                                    "JavaScript ES5/ES6/ES7",
+                                    "React (Nextjs/gatsby/vanilla)"
+                                ]
+                            },
+                            {
+                                "title":"Backend",
+                                "subskills":[
+                                    "Dedicated/Virtual server admistration (Linux)",
+                                    "Mongo, Express, React stack",
+                                    "SQL/noSQL databases",
+                                    "Linux, Apache, MySql, PHP stack",
+                                    "SSL certifications"
+                                ]
+                            },
+                            {
+                                "title":"Audio/Video",
+                                "subskills":[
+                                    "Video transcoding",
+                                    "DSLR operation",
+                                    "audio/video/photo captation",
+                                    "Adobe suite",
+                                    "Studio/lighting setup"
+                                ]
+                            }
+                        ]
+                    }
                 }
             },
             {
@@ -198,31 +208,79 @@
                     "name":"Arthur Juchereau",
                     "location":"Gatineau, Quebec, Canada",
                     "contact":"arthur@juchereau.com",
-                    "summary":"Developpeur Full Stack \n Fondateur de MakeItHappen.dev, ancien Developper principal de la Chaire de Recherche de Canada sur les Écritures Numériques, ancien CTO de Launchleap",
-                    "languages":[
-                        {
-                            "name":"Anglais",
-                            "level":"expert"
-                        },
-                        {
-                            "name":"Français",
-                            "level":"Natif"
-                        },
-                        {
-                            "name":"Allemand",
-                            "level":"functionnel"
-                        }
-                    ],
-                    "links":[
-                        {
-                            "text":"@ArthurBienSur",
-                            "url":"https://twitter.com/ArthurBienSur"
-                        },
-                        {
-                            "text":"Github",
-                            "url":"https://github.com/PookMook"
-                        }
-                    ]
+                    "summary":{
+                        "title":"profile",
+                        "data":[
+                            "Full stack developer",
+                            "Founder of MakeItHappen.dev",
+                            "Former Head developer for the Canadian Research Chair of Digital textualities",
+                            "former CTO of LaunchLeap"
+                        ]
+                    },
+                    "languages":{
+                        "title":"Languages",
+                        "data":[
+                            {
+                                "name":"English",
+                                "level":"fluent"
+                            },
+                            {
+                                "name":"French",
+                                "level":"Native"
+                            },
+                            {
+                                "name":"German",
+                                "level":"functionnal"
+                            }
+                        ]
+                    },
+                    "links":{
+                        "title":"Links",
+                        "data":[
+                            {
+                                "text":"@ArthurBienSur",
+                                "url":"https://twitter.com/ArthurBienSur"
+                            },
+                            {
+                                "text":"Github",
+                                "url":"https://github.com/PookMook"
+                            }
+                        ]
+                    },
+                    "skillsets":{
+                        "title":"Skillsets",
+                        "data":[
+                            {
+                                "title":"FrontEnd",
+                                "subskills":[
+                                    "HTML5",
+                                    "CSS 2/3/4",
+                                    "JavaScript ES5/ES6/ES7",
+                                    "React (Nextjs/gatsby/vanilla)"
+                                ]
+                            },
+                            {
+                                "title":"Backend",
+                                "subskills":[
+                                    "Dedicated/Virtual server admistration (Linux)",
+                                    "Mongo, Express, React stack",
+                                    "SQL/noSQL databases",
+                                    "Linux, Apache, MySql, PHP stack",
+                                    "SSL certifications"
+                                ]
+                            },
+                            {
+                                "title":"Audio/Video",
+                                "subskills":[
+                                    "Video transcoding",
+                                    "DSLR operation",
+                                    "audio/video/photo captation",
+                                    "Adobe suite",
+                                    "Studio/lighting setup"
+                                ]
+                            }
+                        ]
+                    }
                 }
             }
         ]
