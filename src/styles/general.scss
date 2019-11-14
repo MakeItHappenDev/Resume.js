@@ -3,7 +3,8 @@
     $link: #8ad3ff;
     $mildHL: #c5ffa4;
     $color: #c0c0c0;
-    $bgColor : #505050;
+//    $bgColor : #505050;
+    $bgColor:var(--background);
     $bgSection: #303030;
     $lines:#738574;
 a {
