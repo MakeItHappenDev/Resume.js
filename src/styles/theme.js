@@ -2,7 +2,19 @@ import React, {useState} from 'react'
 
 export default () => {
 
-    const [theme,setTheme] = useState('dark')
+    let defaultTheme = "dark"
+    if(typeof window !== 'undefined'){
+        defaultTheme = localStorage.getItem('theme') || defaultTheme  
+    }
+
+    const [theme,setTheme] = useState(defaultTheme)
+
+    const setThemeAndStorage = (string) => {
+        setTheme(string)
+        if(typeof window !== 'undefined'){
+            localStorage.setItem('theme', string);
+        }
+    }
 
     let css = `:root{
     --bgColor:#505050;
@@ -29,8 +41,8 @@ export default () => {
     return(
         <>
             <section id="theme">
-                <p onClick={()=>setTheme("dark")}>Dark Theme</p>
-                <p onClick={()=>setTheme("light")}>light Theme</p>
+                <p onClick={()=>setThemeAndStorage("dark")}>Dark Theme</p>
+                <p onClick={()=>setThemeAndStorage("light")}>light Theme</p>
             </section>
             <style dangerouslySetInnerHTML={{__html: css}} />
         </>
