@@ -1,0 +1,33 @@
+@import '../../styles/variables.scss';
+
+.card{
+    padding: 0.5rem 0;
+    border-bottom:1px solid $line;
+    display:grid;
+    grid-template:
+    "date title location" auto
+    "date description location" auto
+    / 100px 1fr 100px;
+    @media screen and (max-width:500px){
+        grid-template: 
+        "title title" auto
+        "description description" auto
+        "date location" auto
+        / 1fr 1fr;
+    }
+    p.date {
+        grid-area: date;
+        align-self:center;
+    }
+    > h3 {
+        grid-area: title;
+        @extend .highlighted;
+    }
+    > .desc {
+        grid-area:description
+    }
+    > .location {
+        grid-area:location;
+        align-self:center;
+    }
+}

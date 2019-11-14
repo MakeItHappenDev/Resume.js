@@ -1,0 +1,136 @@
+@import './reset.scss';
+@import './variables.scss';
+
+a {
+    color:$link;
+    text-decoration: none;
+    @media print {
+        &:after{
+            content: " (" attr(href) ")";
+        }
+    }
+}
+
+body {
+    background-color:$bgColor;
+    color:$color;
+}
+
+#___gatsby{
+    > div {
+        display:grid;
+        grid-template: 
+        "navigation" auto
+        "meta" auto
+        "page" auto
+        "static" auto
+        "theme" auto
+        / auto;
+        width:100%;
+        max-width: 900px;
+        margin:0 auto;
+        grid-gap: 0.5rem;
+
+        @media screen and (min-width:900px){
+            grid-template:
+            "navigation navigation" auto
+            "page       meta" auto
+            "page       theme" auto
+            "page       static" auto
+            / 2fr       1fr;
+        }
+        @media print {
+            grid-template:
+            "page meta" auto
+            "page static" auto
+            / 2fr  1fr;
+        }
+
+        > * {
+            padding:1rem;
+            background-color:$bgSection;
+        }
+
+        > header#header {
+            grid-area: navigation;
+            display:grid;
+            @media print{
+                display:none;
+            }
+            grid-template:
+            "pages .... langs" auto
+            / auto 1fr auto;
+            >nav {
+                > a { 
+                    display:inline-block;
+                }
+                > a + a {
+                    margin-left:1rem
+                }
+            }
+            > nav:first-child{
+                grid-area:pages
+            }
+            > nav + nav {
+                grid-area: langs;
+            }
+
+        }
+        >section#static {
+            grid-area: static;
+            > h2 {
+                @extend .superHighlighted;
+            }
+            > p {
+                margin:0.5rem 0;
+            }
+            > ul {
+                margin-bottom:1rem;
+            }
+            p.skillset {
+                > strong {
+                    @extend .highlighted;
+                }
+            }
+        }
+
+        >section#meta{
+            grid-area: meta;
+            text-align:center;
+            @media screen and (min-width:900px) {
+                text-align: left;
+            }
+            @media print {
+                text-align:left;
+            }
+            > h1 {
+                @extend .highlighted;
+                font-size:1.15rem;
+                font-weight:bold;
+                margin-bottom:0.5rem;
+                @media screen and (min-width:900px) {
+                    border-bottom:1px solid $line;
+                    padding-bottom:0.5rem;
+                }
+            }
+            > p {
+                margin-bottom:0.5rem;
+            }
+        }
+        >section#page{
+            grid-area:page;
+            >article{
+                margin-bottom:1rem;
+                > h2 {
+                    @extend .superHighlighted;
+                }
+            }
+        }
+        > section#theme{
+            grid-area:theme;
+            @media print{
+                display:none;
+            }
+        }
+    }
+}
