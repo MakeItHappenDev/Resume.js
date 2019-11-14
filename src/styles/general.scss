@@ -35,8 +35,8 @@ body {
             grid-template:
             "navigation navigation" auto
             "page       meta" auto
-            "page       theme" auto
             "page       static" auto
+            "page       theme" 1fr
             / 2fr       1fr;
         }
         @media print {
@@ -78,6 +78,7 @@ body {
         }
         >section#static {
             grid-area: static;
+            align-self: start;
             > h2 {
                 @extend .superHighlighted;
             }
@@ -97,6 +98,7 @@ body {
         >section#meta{
             grid-area: meta;
             text-align:center;
+            align-self: start;
             @media screen and (min-width:900px) {
                 text-align: left;
             }
@@ -128,6 +130,7 @@ body {
         }
         > section#theme{
             grid-area:theme;
+            align-self: start;
             @media print{
                 display:none;
             }
