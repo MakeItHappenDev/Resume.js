@@ -1,0 +1,23 @@
+$bgColor:var(--bgColor);
+$bgSection:var(--bgSection);
+$link: var(--link);
+$highlight:var(--highlight);
+$color:var(--color);
+$line:var(--line);
+
+
+.highlighted {
+    color:$highlight;
+    @media print{
+        color:black;
+        font-weight: bold;
+    }
+}
+
+.superHighlighted {
+    @extend .highlighted;
+    font-size:1.15rem;
+    padding-bottom:0.5rem;
+    border-bottom:1px solid $line;
+    margin-bottom:0.5rem;
+}

@@ -6,7 +6,7 @@ export default (props) => {
     const data = json.data.fetchResumes
     const activeLang = data.find(l => l.lang === props.lang)
     return(
-        <header>
+        <header id="header">
             <nav>
     {activeLang.pages.map(p=><Link key={`pageNav-${p.name}`} to={`/${activeLang.lang.toLowerCase()}/${p.name.toLowerCase()}`}>{p.name}</Link>)}
             </nav>
