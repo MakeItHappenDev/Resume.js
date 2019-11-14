@@ -1,5 +1,6 @@
 import React from 'react'
 
+import styles from './education.module.scss'
 
 export default (props) => {
 

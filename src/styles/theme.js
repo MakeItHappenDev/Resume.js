@@ -28,7 +28,7 @@ export default () => {
     }
     return(
         <>
-            <section>
+            <section id="theme">
                 <p onClick={()=>setTheme("dark")}>Dark Theme</p>
                 <p onClick={()=>setTheme("light")}>light Theme</p>
             </section>

@@ -1,0 +1,34 @@
+@import '../../styles/variables.scss';
+
+.education {
+    padding:0.5rem 0;
+    border-bottom:1px solid $lines;
+    display:grid;
+    grid-template: 
+    "date title location" auto
+    "date description location" auto
+    / 100px 1fr 100px;
+    @media screen and (max-width:500px){
+        grid-template: 
+        "title title" auto
+        "description description" auto
+        "date location" auto
+        / 1fr 1fr;
+    }
+    grid-gap: 0.25rem 0.5rem;
+    > p.date{
+        grid-area: date;
+        align-self: center;
+    }
+    > h3 {
+        grid-area: title;
+        color:$mildHL;
+    }
+    > p.desc {
+        grid-area:description
+    }
+    > p.location {
+        grid-area:location;
+        align-self: center;
+    }
+}

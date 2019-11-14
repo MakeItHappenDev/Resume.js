@@ -113,37 +113,15 @@
                         ]
                     }
                 ],
-                "static":[
+                "static":[ 
                     {
-                        "title":"Languages",
-                        "type":"languages",
+                        "title":"Profile",
+                        "type":"profile",
                         "data":[
-                            {
-                                "name":"English",
-                                "level":"fluent"
-                            },
-                            {
-                                "name":"French",
-                                "level":"Native"
-                            },
-                            {
-                                "name":"German",
-                                "level":"functionnal"
-                            }
-                        ]
-                    },
-                    {
-                        "title":"Links",
-                        "type":"links",
-                        "data":[
-                            {
-                                "text":"@ArthurBienSur",
-                                "url":"https://twitter.com/ArthurBienSur"
-                            },
-                            {
-                                "text":"Github",
-                                "url":"https://github.com/PookMook"
-                            }
+                            "Full stack developer",
+                            "Founder of MakeItHappen.dev",
+                            "Former Head developer for the Canadian Research Chair of Digital textualities",
+                            "former CTO of LaunchLeap"
                         ]
                     },
                     {
@@ -180,22 +158,44 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "title":"Links",
+                        "type":"links",
+                        "data":[
+                            {
+                                "text":"@ArthurBienSur",
+                                "url":"https://twitter.com/ArthurBienSur"
+                            },
+                            {
+                                "text":"Github",
+                                "url":"https://github.com/PookMook"
+                            }
+                        ]
+                    },
+                    {
+                        "title":"Languages",
+                        "type":"languages",
+                        "data":[
+                            {
+                                "name":"English",
+                                "level":"fluent"
+                            },
+                            {
+                                "name":"French",
+                                "level":"Native"
+                            },
+                            {
+                                "name":"German",
+                                "level":"functionnal"
+                            }
+                        ]
                     }
                 ],
                 "metadata":{
                     "name":"Arthur Juchereau",
                     "location":"Gatineau, Quebec, Canada",
-                    "contact":"arthur@juchereau.com",
-                    "profile":{
-                        "title":"Profile",
-                        "data":[
-                            "Full stack developer",
-                            "Founder of MakeItHappen.dev",
-                            "Former Head developer for the Canadian Research Chair of Digital textualities",
-                            "former CTO of LaunchLeap"
-                        ]
-                    }
-                    
+                    "contact":"arthur@juchereau.com"                    
                 }
             },
             {
