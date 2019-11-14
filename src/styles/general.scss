@@ -80,10 +80,8 @@ body{
                 font-weight: bold;
                 margin-bottom:0.5rem;
                 color: $mildHL;
-                @media screen and (min-width:900px){
-                    border-bottom:1px solid $lines;
-                    padding-bottom:0.5rem;
-                }
+                border-bottom:1px solid $lines;
+                padding-bottom:0.5rem;
             }
             > p {
                 margin:0.5rem 0;
@@ -132,11 +130,12 @@ body{
                 margin-bottom: 0.5rem;
             }
             > h2 {
-                font-size: 1.15rem;
-                font-weight: bold;
-                margin-bottom:0.5rem;
-                color: $mildHL;
-                @media screen and (min-width:900px){
+                display:none;
+                @media screen and (min-width:900px){ 
+                    font-size: 1.15rem;
+                    font-weight: bold;
+                    margin-bottom:0.5rem;
+                    color: $mildHL;
                     border-bottom:1px solid $lines;
                     padding-bottom:0.5rem;
                 }

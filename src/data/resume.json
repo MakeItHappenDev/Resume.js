@@ -210,21 +210,10 @@
                         "data":[]
                     }
                 ],
-                "metadata":{
-                    "name":"Arthur Juchereau",
-                    "location":"Gatineau, Quebec, Canada",
-                    "contact":"arthur@juchereau.com",
-                    "summary":{
-                        "title":"profile",
-                        "data":[
-                            "Full stack developer",
-                            "Founder of MakeItHappen.dev",
-                            "Former Head developer for the Canadian Research Chair of Digital textualities",
-                            "former CTO of LaunchLeap"
-                        ]
-                    },
-                    "languages":{
+                "static":[
+                    {
                         "title":"Languages",
+                        "type":"languages",
                         "data":[
                             {
                                 "name":"English",
@@ -240,8 +229,9 @@
                             }
                         ]
                     },
-                    "links":{
+                    {
                         "title":"Links",
+                        "type":"links",
                         "data":[
                             {
                                 "text":"@ArthurBienSur",
@@ -253,8 +243,9 @@
                             }
                         ]
                     },
-                    "skillsets":{
+                    {
                         "title":"Skillsets",
+                        "type":"skillsets",
                         "data":[
                             {
                                 "title":"FrontEnd",
@@ -287,6 +278,21 @@
                             }
                         ]
                     }
+                ],
+                "metadata":{
+                    "name":"Arthur Juchereau",
+                    "location":"Gatineau, Quebec, Canada",
+                    "contact":"arthur@juchereau.com",
+                    "profile":{
+                        "title":"Profile",
+                        "data":[
+                            "Full stack developer",
+                            "Founder of MakeItHappen.dev",
+                            "Former Head developer for the Canadian Research Chair of Digital textualities",
+                            "former CTO of LaunchLeap"
+                        ]
+                    }
+                    
                 }
             }
         ]

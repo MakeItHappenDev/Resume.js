@@ -30,7 +30,7 @@ exports.createPages = async ({ actions }) => {
             context:{
                 lang:resume.lang,
                 meta:resume.metadata,
-                meta:resume.static,
+                static:resume.static,
                 page:resume.pages[0].name,
                 canonical:`/${resume.lang.toLowerCase()}/${resume.pages[0].name.toLowerCase()}`,
                 data:resume.pages[0].data

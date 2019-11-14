@@ -2,6 +2,8 @@ import React from 'react'
 import SkillSet from './skillset'
 import Experience from './experience'
 import Education from './education'
+import Project from './project'
+import Hobby from './hobbies'
 
 
 export default props => {
@@ -13,6 +15,12 @@ export default props => {
     }
     else if(props.type === "education"){
         return <Education {...props}/>
+    }
+    else if(props.type === "project"){
+        return <Project {...props} />
+    }
+    else if(props.type === "hobby"){
+        return <Hobby {...props} />
     }
 
     return(
