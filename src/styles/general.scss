@@ -1,12 +1,12 @@
 @import './reset.scss';
 
-    $link: #8ad3ff;
-    $mildHL: #c5ffa4;
-    $color: #c0c0c0;
+    $link: var(--link);
+    $mildHL: var(--mildHL);
+    $color: var(--color);
 //    $bgColor : #505050;
-    $bgColor:var(--background);
-    $bgSection: #303030;
-    $lines:#738574;
+    $bgColor:var(--bgColor);
+    $bgSection: var(--bgSection);
+    $lines:var(--lines);
 a {
     color:$link;
     font-weight: bold;
