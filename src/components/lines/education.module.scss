@@ -24,6 +24,9 @@
         grid-area: date;
         align-self:end;
         text-align: right;
+        @media screen and (max-width:500px){
+            text-align: left;
+        }
     }
     > h3 {
         grid-area: title;

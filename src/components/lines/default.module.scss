@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.card {
+    >h3 {
+        @extend .highlighted;
+        margin-bottom:0.5rem;
+    }
+    padding:0.5rem 0;
+    margin-bottom:0.5rem;
+    border-bottom:1px solid $line;
+    @media print{
+        border-bottom:1px solid $printHL;
+    }
+    > ul {
+        margin:0.5rem 0 0 1rem;
+    }
+}

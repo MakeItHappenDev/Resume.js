@@ -20,37 +20,37 @@
                                     },
                                     {
                                         "type":"experience",
-                                        "date":"2014, 2019",
+                                        "date":"2014 - 2019",
                                         "title":"Head developer at the Canadian Research Chair of Digital Textualities",
-                                        "description":"Development of custom platforms aimed at academics and used by hundreds of stakeholders in over 10 countries.\nThis includes development in PHP/SQLite/HTML5 and Node.js/Sails/React/Redux and dealing with datafiles extensively like XML/JSON/YaML",
+                                        "description":"Development of custom platforms for academics and used by hundreds of stakeholders in over 10 countries.\nThis includes development in PHP/SQLite/HTML5 and Node.js/Sails/React/Redux and dealing with data files extensively like XML/JSON/YaML",
                                         "location":"Montreal, Quebec, Canada"
                                     },
                                     {
                                         "type":"experience",
-                                        "date":"2014, 2017",
+                                        "date":"2014 - 2017",
                                         "title":"CTO Launchleap",
-                                        "description":"Interractive surveys/crowdsourcing app.\nDevelopment from the initial proof of concept to the fully fledged self-served platform.\nAgile project management and training of IT staff.\nPHP/MySQL/HTML5/Linux dedicated servers",
+                                        "description":"Interactive surveys/crowdsourcing app.\nDevelopment from the proof of concept to the fully fledged self-served platform.\nAgile project management and training of IT staff.\nPHP/MySQL/HTML5/Linux dedicated servers",
                                         "location":"Montreal, Quebec, Canada"
                                     },
                                     {
                                         "type":"experience",
-                                        "date": "2013, 2014",
+                                        "date": "2013 - 2014",
                                         "title": "Webmaster at Les Publications du Quartier Libre",
                                         "description": "Web Administration of the Student newspaper of the University of Montreal",
                                         "location": "Montreal, Quebec, Canada"
                                       },
                                       {
                                         "type":"experience",
-                                        "date": "2011, 2012",
+                                        "date": "2011 - 2012",
                                         "title": "Technician at Canal+",
                                         "description": "Technician for the Canal+ French TV station\nCabling, Guest preparation and video recording",
                                         "location": "Paris, France"
                                       },
                                       {
                                         "type":"experience",
-                                        "date": "2009, 2010",
+                                        "date": "2009 - 2010",
                                         "title": "GameShow demonstrator, Sony Computer Entertainment Europe",
-                                        "description": "Setup and logistic of Playstation European gameshow booths.\nGamer feedback gathering and reporting.\nWorked mostly with Playsation Move and Gran Turismo 5",
+                                        "description": "Setup and logistic of Playstation European game show booths.\nGamer feedback gathering and reporting.\nWorked mostly with Playsation Move and Gran Turismo 5",
                                         "location": "Paris, France"
                                       }
                                 ]
@@ -61,7 +61,15 @@
                                 "data":[
                                     {
                                         "type":"education",
-                                        "date":"2013, 2014",
+                                        "date":"Summer 2019",
+                                        "title":"Startup school",
+                                        "level":"Online class",
+                                        "institution":"YCombinator",
+                                        "location":"Remote"
+                                    },
+                                    {
+                                        "type":"education",
+                                        "date":"2013 - 2014",
                                         "title":"Art, Creation and Technologies",
                                         "level":"Post graduate Diploma",
                                         "institution":"University of Montreal",
@@ -69,7 +77,7 @@
                                     },
                                     {
                                         "type":"education",
-                                        "date":"2010, 2013",
+                                        "date":"2010 - 2013",
                                         "title":"Network Architecture and Web development",
                                         "level":"Master",
                                         "institution":"Université Pierre et Marie Curie (Paris VI)",
@@ -77,7 +85,7 @@
                                     },
                                     {
                                         "type":"education",
-                                        "date":"2008, 2010",
+                                        "date":"2008 - 2010",
                                         "title":"Science and Web development",
                                         "institution":"SUPINFO, The International Institute of Information Technology",
                                         "level":"Bachelor",
@@ -95,10 +103,49 @@
                                 "data":[
                                     {
                                         "type":"project",
+                                        "title":"MakeItHappen",
+                                        "description":"MVP of a platform to collect problem from the users' daily life, and find solution providers to solve them.\nDeploying a platform with database and server side rendering on a serverless architecture\nUsing Nextjs, Mongo Atlas, Zeit.co serverless",
+                                        "scope":"Scope: Founder",
+                                        "version":"Status : MVP",
+                                        "links":[
+                                            {
+                                                "url":"https://makeithappen.dev",
+                                                "text":"MakeItHappen.dev"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type":"project",
+                                        "title":"Stylo",
+                                        "description":"Online text processor for scholars focused on metadata and scientific paper publishing.\nExports in most format used within the scientific community (XML, PDF, MD+YAML, LaTeX, etc)\nMade using Gatsby/react, Express/GraphQL, docker. \n Used by about 100 researchers in their daily life across the world.",
+                                        "scope":"Context: University of Montreal",
+                                        "version":"Status : production",
+                                        "links":[
+                                            {
+                                                "url":"https://stylo.ecrituresnumeriques.ca",
+                                                "text":"Stylo"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type":"project",
+                                        "title":"Anthologia",
+                                        "description":"Open database for the Palatine Anthology where anyone can view and add translations of the ancient greek texts, enrich metadata surrounding those texts.\n Made using Gatsby/react, Sailsjs, MongoDB and docker\nUsed by around 100 contributors and serves a dozen projects fetching data from it.",
+                                        "scope":"Context: University of Montreal",
+                                        "version":"Status : production",
+                                        "links":[
+                                            {
+                                                "url":"https://anthologia.ecrituresnumeriques.com",
+                                                "text":"Anthologia"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type":"project",
                                         "title":"LaunchLeap",
-                                        "description":"Crowdsourcing/survey platform. Basically Kickstarter replacing money with insight. Coded from scratch using PHP, HTML5/JQUERY (React for newer parts), MySQL",
-                                        "scope":"CTO of LaunchLeap",
-                                        "version":"production",
+                                        "description":"Crowdsourcing/survey platform.\n Basically Kickstarter replacing money with insight.\nCoded from scratch using PHP, HTML5/JQUERY (React for newer parts), MySQL\n Used by private/public organizations in Quebec for Insight campaigns",
+                                        "scope":"Context : CTO of LaunchLeap",
+                                        "version":"Status : production",
                                         "links":[
                                             {
                                                 "url":"https://launchleap.com",
@@ -117,19 +164,28 @@
                                         "description":"Photography and video recording",
                                         "links":[
                                             {
-                                                "url":"",
-                                                "text":"ArthurJ on Flickr"
+                                                "url":"https://www.flickr.com/people/arthur_j/",
+                                                "text":"Arthur_J",
+                                                "platform":"Flickr"
                                             },
                                             {
-                                                "url":"",
-                                                "text":"Arthur BienSur on Youtube"
+                                                "url":"https://www.youtube.com/channel/UC1gv3EjkU9lrW_lPqAB8zow",
+                                                "text":"Arthur BienSur",
+                                                "platform":"YouTube"
                                             },
                                             {
-                                                "url":"",
-                                                "text":"Arthur BienSur on Twitch"
+                                                "url":"https://www.twitch.tv/arthurbiensur",
+                                                "text":"ArthurBienSur",
+                                                "platform":"Twitch"
                                             }
                                         ]
+                                    },
+                                    {
+                                        "type":"hobby",
+                                        "title":"Board games",
+                                        "description":"I Always enjoy trying out new games, figuring new systems. Super backer on kickstarter, mostly supporting board games."
                                     }
+                                
                                 ]
                             }
                         ]
@@ -143,7 +199,7 @@
                             "Full stack developer",
                             "Founder of MakeItHappen.dev",
                             "Former Head developer for the Canadian Research Chair of Digital textualities",
-                            "former CTO of LaunchLeap"
+                            "Former CTO of LaunchLeap"
                         ]
                     },
                     {
@@ -151,7 +207,7 @@
                         "type":"skillsets",
                         "data":[
                             {
-                                "title":"FrontEnd",
+                                "title":"Frontend",
                                 "subskills":[
                                     "HTML5",
                                     "CSS 2/3/4",
@@ -177,6 +233,18 @@
                                     "audio/video/photo captation",
                                     "Adobe suite",
                                     "Studio/lighting setup"
+                                ]
+                            },
+                            {
+                                "title":"Entrepreneurship",
+                                "subskills":[
+                                    "MVP planning",
+                                    "Investor pitch",
+                                    "User Interview",
+                                    "Performance metrics",
+                                    "Idea gaging",
+                                    "Iterative development",
+                                    "Staff training"
                                 ]
                             }
                         ]
@@ -217,7 +285,7 @@
                             },
                             {
                                 "name":"French",
-                                "level":"Native"
+                                "level":"native"
                             },
                             {
                                 "name":"German",
@@ -232,103 +300,6 @@
                     "contact":"arthur@juchereau.com",
                     "phone":"+1 (438) 397 3992",
                     "website":"arthur.juchereau.com"
-                }
-            },
-            {
-                "lang":"fr",
-                "pages":[
-                    {
-                        "name":"CV",
-                        "data":[]
-                    },
-                    {
-                        "name":"Portfolio",
-                        "data":[]
-                    }
-                ],
-                "static":[
-                    {
-                        "title":"Languages",
-                        "type":"languages",
-                        "data":[
-                            {
-                                "name":"English",
-                                "level":"fluent"
-                            },
-                            {
-                                "name":"French",
-                                "level":"Native"
-                            },
-                            {
-                                "name":"German",
-                                "level":"functionnal"
-                            }
-                        ]
-                    },
-                    {
-                        "title":"Links",
-                        "type":"links",
-                        "data":[
-                            {
-                                "text":"@ArthurBienSur",
-                                "url":"https://twitter.com/ArthurBienSur"
-                            },
-                            {
-                                "text":"Github",
-                                "url":"https://github.com/PookMook"
-                            }
-                        ]
-                    },
-                    {
-                        "title":"Skillsets",
-                        "type":"skillsets",
-                        "data":[
-                            {
-                                "title":"FrontEnd",
-                                "subskills":[
-                                    "HTML5",
-                                    "CSS 2/3/4",
-                                    "JavaScript ES5/ES6/ES7",
-                                    "React (Nextjs/gatsby/vanilla)"
-                                ]
-                            },
-                            {
-                                "title":"Backend",
-                                "subskills":[
-                                    "Dedicated/Virtual server admistration (Linux)",
-                                    "Mongo, Express, React stack",
-                                    "SQL/noSQL databases",
-                                    "Linux, Apache, MySql, PHP stack",
-                                    "SSL certifications"
-                                ]
-                            },
-                            {
-                                "title":"Audio/Video",
-                                "subskills":[
-                                    "Video transcoding",
-                                    "DSLR operation",
-                                    "audio/video/photo captation",
-                                    "Adobe suite",
-                                    "Studio/lighting setup"
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "metadata":{
-                    "name":"Arthur Juchereau",
-                    "location":"Gatineau, Quebec, Canada",
-                    "contact":"arthur@juchereau.com",
-                    "profile":{
-                        "title":"Profile",
-                        "data":[
-                            "Full stack developer",
-                            "Founder of MakeItHappen.dev",
-                            "Former Head developer for the Canadian Research Chair of Digital textualities",
-                            "former CTO of LaunchLeap"
-                        ]
-                    }
-                    
                 }
             }
         ]
