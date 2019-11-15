@@ -1,11 +1,14 @@
 import React from 'react'
+import { FaPhone, FaEnvelopeOpen, FaMapMarkerAlt, FaGlobe} from 'react-icons/fa'
 
 export default (props) => {
     return(
         <section id="meta">
             <h1>{props.meta.name}</h1>
-            <p>{props.meta.location}</p>
-            <p>{props.meta.contact}</p>
+            {props.meta.location && <p><FaMapMarkerAlt/> {props.meta.location}</p>}
+            {props.meta.contact && <p><FaEnvelopeOpen/> {props.meta.contact}</p>}
+            {props.meta.website && <p><FaGlobe/> {props.meta.website}</p>}
+            {props.meta.phone && <p><FaPhone/> {props.meta.phone}</p>}
         </section>
     )
 }

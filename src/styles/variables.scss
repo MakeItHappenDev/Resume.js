@@ -1,23 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 $bgColor:var(--bgColor);
 $bgSection:var(--bgSection);
 $link: var(--link);
 $highlight:var(--highlight);
+$printHL:var(--printHL);
 $color:var(--color);
 $line:var(--line);
+
+
+body{
+    font-family: 'Open sans',sans-serif;
+}
 
 
 .highlighted {
     color:$highlight;
     @media print{
-        color:black;
+        color:$printHL;
         font-weight: bold;
     }
 }
 
 .superHighlighted {
     @extend .highlighted;
+    font-weight: bold;
     font-size:1.15rem;
     padding-bottom:0.5rem;
     border-bottom:1px solid $line;
     margin-bottom:0.5rem;
+    @media print{
+        border-bottom:1px solid $printHL;
+    }
 }

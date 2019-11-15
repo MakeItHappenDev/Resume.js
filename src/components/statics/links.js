@@ -1,4 +1,5 @@
 import React from 'react'
+import Url from '../url'
 
 export default (props) => {
 
@@ -6,7 +7,7 @@ export default (props) => {
     <>
       <h2>{props.title}</h2>
       <ul>
-          {props.data.map(l => <li><a href={l.url} target="_blank" rel="noopener noreferrer">{l.text}</a></li>)}
+          {props.data.map(l => <li><Url {...l}/></li>)}
       </ul>
     </>
   )
