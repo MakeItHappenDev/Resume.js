@@ -41,9 +41,9 @@ body {
         }
         @media print {
             grid-template:
-            "page meta" auto
-            "page static" auto
-            / 2fr  1fr;
+            "meta page" auto
+            "static page" 1fr
+            / 1fr  2fr;
         }
 
         > * {
@@ -87,6 +87,9 @@ body {
             }
             > ul {
                 margin-bottom:1rem;
+                > li {
+                    margin-bottom:0.5rem;
+                }
             }
             p.skillset {
                 > strong {
@@ -107,12 +110,16 @@ body {
             }
             > h1 {
                 @extend .highlighted;
+                font-weight: bold;
                 font-size:1.15rem;
-                font-weight:bold;
                 margin-bottom:0.5rem;
                 @media screen and (min-width:900px) {
-                    border-bottom:1px solid $line;
                     padding-bottom:0.5rem;
+                    border-bottom:1px solid $line;
+                }
+                @media print{
+                    padding-bottom:0.5rem;
+                    border-bottom:1px solid $printHL;
                 }
             }
             > p {

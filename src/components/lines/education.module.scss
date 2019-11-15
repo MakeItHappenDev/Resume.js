@@ -3,11 +3,15 @@
 .card{
     padding: 0.5rem 0;
     border-bottom:1px solid $line;
+    @media print{
+        border-bottom:1px solid $printHL;
+    }
     display:grid;
     grid-template:
-    "date title location" auto
-    "date description location" auto
-    / 100px 1fr 100px;
+    "title location" auto
+    "description location" auto
+    "description date" auto
+    / 1fr 100px;
     @media screen and (max-width:500px){
         grid-template: 
         "title title" auto
@@ -15,9 +19,14 @@
         "date location" auto
         / 1fr 1fr;
     }
+    grid-gap: 0.5rem;
     p.date {
         grid-area: date;
-        align-self:center;
+        align-self:end;
+        text-align: right;
+        @media screen and (max-width:500px){
+            text-align: left;
+        }
     }
     > h3 {
         grid-area: title;
@@ -28,6 +37,7 @@
     }
     > .location {
         grid-area:location;
-        align-self:center;
+        align-self:start;
+        text-align: right;
     }
 }
