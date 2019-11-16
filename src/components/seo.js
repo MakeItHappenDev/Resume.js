@@ -5,11 +5,12 @@ export default ( props) => {
 
   const defaultProps = {
     lang: `en`,
-    description: `My resume`,
-    name: 'Resume.js'
+    name: 'Resume.js',
+    description: 'My resume'
   }
 
-  const title = props.page? `${props.page} | ${props.meta.name}` : props.meta.name ? props.meta.name : defaultProps.name
+  const name = props.meta.name ? props.meta.name : defaultProps.name
+  const title = props.page? `${props.page} | ${props.meta.name}` : name
   const description = props.description || defaultProps.description
 
 

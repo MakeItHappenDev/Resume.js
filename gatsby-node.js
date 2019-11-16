@@ -12,6 +12,7 @@ exports.createPages = async ({ actions }) => {
         component:templatePage,
         context:{
             lang:data[0].lang,
+            description:data[0].description,
             meta:data[0].metadata,
             static:data[0].static,
             page:data[0].pages[0].name,
@@ -29,6 +30,7 @@ exports.createPages = async ({ actions }) => {
             component:templatePage,
             context:{
                 lang:resume.lang,
+                description:resume.description,
                 meta:resume.metadata,
                 static:resume.static,
                 page:resume.pages[0].name,
@@ -45,6 +47,7 @@ exports.createPages = async ({ actions }) => {
                 component:templatePage,
                 context:{
                     lang:resume.lang,
+                    description:resume.description,
                     meta:resume.metadata,
                     static:resume.static,
                     page:page.name,
