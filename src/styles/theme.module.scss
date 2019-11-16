@@ -1,0 +1,24 @@
+@import './variables.scss';
+
+.theme{
+  grid-area:theme;
+  align-self: start;
+  @media print{
+      display:none;
+  }
+  > h2 {
+    @extend .superHighlighted;
+  }
+  > p {
+    transition: all 0.3s;
+    cursor: pointer;
+    display:inline-block;
+    padding:0.5rem;
+  }
+  > p + p {
+    margin-left:0.5rem;
+  }
+  .selected,p:hover{
+    background-color:$bgColor;
+  }
+}

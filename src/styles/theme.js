@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 
+import styles from './theme.module.scss'
 
 export default () => {
 
@@ -38,12 +39,26 @@ export default () => {
         --printHL:#009000;
     }`
     }
+    else if(theme === 'purple'){
+        css = `
+    :root{
+        --bgColor:#d0d0d0;
+        --bgSection:white;
+        --link: teal;
+        --highlight:#542c85;
+        --color:#303030;
+        --line:#542c85;
+        --printHL:#542c85;
+    }`
+    }
 
     return(
         <>
-            <section id="theme">
-                <p onClick={()=>setThemeAndLocalStorage('dark')}>dark</p>
-                <p onClick={()=>setThemeAndLocalStorage('light')}>light</p>
+            <section className={styles.theme}>
+                <h2>Themes</h2>
+                <p className={theme==="dark"?styles.selected:null} onClick={()=>setThemeAndLocalStorage('dark')}>dark</p>
+                <p className={theme==="light"?styles.selected:null} onClick={()=>setThemeAndLocalStorage('light')}>light</p>
+                <p className={theme==="purple"?styles.selected:null} onClick={()=>setThemeAndLocalStorage('purple')}>Purple</p>
             </section>
             <style dangerouslySetInnerHTML={{__html:css}} />
         </>

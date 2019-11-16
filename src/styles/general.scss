@@ -135,12 +135,5 @@ body {
                 }
             }
         }
-        > section#theme{
-            grid-area:theme;
-            align-self: start;
-            @media print{
-                display:none;
-            }
-        }
     }
 }
