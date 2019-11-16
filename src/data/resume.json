@@ -99,14 +99,34 @@
                         "name":"Portfolio",
                         "data":[
                             {
-                                "title":"Projects",
+                                "title":"Active Projects",
+                                "data":[
+                                    {
+
+                                        "type":"project",
+                                        "title":"Resume.js",
+                                        "description":"Dynamic Resume fetching data from a JSON file or API.Made with Gatsby and now.sh",
+                                        "links":[
+                                            {
+                                                "url":"https://arthur.juchereau.com",
+                                                "text":"This resume"
+                                            },
+                                            {
+                                                "url":"https://github.com/MakeItHappenDev/Resume.js",
+                                                "text":"Source code",
+                                                "platform":"Github"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "title":"Past Projects",
                                 "data":[
                                     {
                                         "type":"project",
                                         "title":"MakeItHappen",
                                         "description":"MVP of a platform to collect problem from the users' daily life, and find solution providers to solve them.\nDeploying a platform with database and server side rendering on a serverless architecture\nUsing Nextjs, Mongo Atlas, Zeit.co serverless",
-                                        "scope":"Scope: Founder",
-                                        "version":"Status : MVP",
                                         "links":[
                                             {
                                                 "url":"https://makeithappen.dev",
@@ -118,8 +138,6 @@
                                         "type":"project",
                                         "title":"Stylo",
                                         "description":"Online text processor for scholars focused on metadata and scientific paper publishing.\nExports in most format used within the scientific community (XML, PDF, MD+YAML, LaTeX, etc)\nMade using Gatsby/react, Express/GraphQL, docker. \n Used by about 100 researchers in their daily life across the world.",
-                                        "scope":"Context: University of Montreal",
-                                        "version":"Status : production",
                                         "links":[
                                             {
                                                 "url":"https://stylo.ecrituresnumeriques.ca",
@@ -135,12 +153,10 @@
                                     {
                                         "type":"project",
                                         "title":"Anthologia",
-                                        "description":"Open database for the Palatine Anthology where anyone can view and add translations of the ancient greek texts, enrich metadata surrounding those texts.\n Made using Gatsby/react, Sailsjs, MongoDB and docker\nUsed by around 100 contributors and serves a dozen projects fetching data from it.",
-                                        "scope":"Context: University of Montreal",
-                                        "version":"Status : production",
+                                        "description":"Open database for the Palatine Anthology where anyone can view and add translations of the ancient greek texts, enrich metadata surrounding those texts.\n Made using react, Sailsjs, MongoDB and docker\nUsed by around 100 contributors and serves a dozen projects fetching data from it.",
                                         "links":[
                                             {
-                                                "url":"https://anthologia.ecrituresnumeriques.com",
+                                                "url":"https://anthologia.ecrituresnumeriques.ca",
                                                 "text":"Anthologia"
                                             },
                                             {
@@ -154,8 +170,6 @@
                                         "type":"project",
                                         "title":"LaunchLeap",
                                         "description":"Crowdsourcing/survey platform.\n Basically Kickstarter replacing money with insight.\nCoded from scratch using PHP, HTML5/JQUERY (React for newer parts), MySQL\n Used by private/public organizations in Quebec for Insight campaigns",
-                                        "scope":"Context : CTO of LaunchLeap",
-                                        "version":"Status : production",
                                         "links":[
                                             {
                                                 "url":"https://launchleap.com",

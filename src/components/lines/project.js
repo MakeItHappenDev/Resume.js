@@ -9,8 +9,8 @@ export default (props) => {
         <article className={styles.card}>
             <h3>{props.title}</h3>
             {props.description.split('\n').map((d,i)=><p>{d}</p>)}
-            <p>{props.scope}</p>
-            <p>{props.version}</p>
+            {props.scope && <p>{props.scope}</p>}
+            {props.version && <p>{props.version}</p>}
             <ul>
                 {props.links && props.links.map(l=><li key={`links-${props.title}-${l.url}`}><Url {...l} /></li>)}
             </ul>
