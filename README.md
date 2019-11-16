@@ -18,4 +18,8 @@ Building a Resume from a JSON file using Gatsby and deploying to now.sh / zeit.c
 
 # See how it was made
 
-https://www.youtube.com/playlist?list=PLBHbfZu_dhOeMed_-6A9uo1M8OQ-3fhBK
+playlist : https://www.youtube.com/playlist?list=PLBHbfZu_dhOeMed_-6A9uo1M8OQ-3fhBK
+
+creating page in Gatsby from a JSON page + general structure : https://youtu.be/jbujgAyzelM
+Adding custom domain + custom email to your project via now CLI : https://youtu.be/BREKaL5zdGI
+Styling in SCSS, modules, lots of CSS grids and Themes : https://youtu.be/eXAa8aYRQpc
