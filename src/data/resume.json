@@ -3,7 +3,7 @@
         "fetchResumes":[
             {
                 "lang":"en",
-                "description":"My Resume",
+                "description":"Arthur Juchereau's Resume, FullStack developer. Founder of MakeItHappen and former CTO of LaunchLeap",
                 "pages":[
                     {
                         "name":"Resume",
@@ -124,6 +124,11 @@
                                             {
                                                 "url":"https://stylo.ecrituresnumeriques.ca",
                                                 "text":"Stylo"
+                                            },
+                                            {
+                                                "url":"https://github.com/EcrituresNumeriques/stylo",
+                                                "text":"Source code",
+                                                "platform":"Github"
                                             }
                                         ]
                                     },
@@ -137,6 +142,11 @@
                                             {
                                                 "url":"https://anthologia.ecrituresnumeriques.com",
                                                 "text":"Anthologia"
+                                            },
+                                            {
+                                                "url":"https://github.com/EcrituresNumeriques/anthologie-API",
+                                                "text":"Source code",
+                                                "platform":"Github"
                                             }
                                         ]
                                     },
