@@ -5,7 +5,14 @@ import styles from './theme.module.scss'
 export default () => {
 
     let defaultTheme = 'light'
+    
+
+
+    
     if(typeof window !== 'undefined'){
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            defaultTheme = 'dark'
+        }
         defaultTheme = localStorage.getItem('theme') || defaultTheme
     }
     const [theme, setTheme] = useState(defaultTheme)
