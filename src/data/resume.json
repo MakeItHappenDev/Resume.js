@@ -243,8 +243,7 @@
                         "data":[
                             "Full-stack developer",
                             "Founder of MakeItHappen.dev",
-                            "Former Head developer for the Canadian Research Chair of Digital textualities",
-                            "Former CTO of LaunchLeap",
+                            "Maintainer of the GraphObjectNotation library",
                             "TripleByte alumni"
                         ]
                     },
@@ -310,14 +309,19 @@
                                 "platform":"Github"
                             },
                             {
-                                "text":"Arthur BienSur",
-                                "url":"https://www.youtube.com/channel/UC1gv3EjkU9lrW_lPqAB8zow",
-                                "platform":"YouTube"
+                                "text":"ArthurBienSur",
+                                "url":"https://www.twitch.tv/arthurbiensur",
+                                "platform":"Twitch"
                             },
                             {
                                 "text":"in/arthurjuchereau",
                                 "url":"https://www.linkedin.com/in/arthurjuchereau/",
                                 "platform":"LinkedIn"
+                            },
+                            {
+                                "text":"Arthur BienSur",
+                                "url":"https://www.youtube.com/channel/UC1gv3EjkU9lrW_lPqAB8zow",
+                                "platform":"YouTube"
                             }
                         ]
                     },
