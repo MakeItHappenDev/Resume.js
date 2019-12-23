@@ -14,9 +14,9 @@
                                     {
                                         "type":"experience",
                                         "date":"2019 - present",
-                                        "title":"Founder MakeItHappen.dev",
-                                        "description":"Platform to collect problems/ideas from users, create communities around them and find solution providers willing to help.",
-                                        "location":"Gatineau, Quebec, Canada"
+                                        "title":"Freelancer / Contractor",
+                                        "description":"Planning and coding MVPs for clients.\nDeployement using docker containers or serverless.\nDevelopments in JavaScript (nodejs backends, next/React frontends) using state machines and faunaDB/MongoDB",
+                                        "location":"Remote"
                                     },
                                     {
                                         "type":"experience",
@@ -104,6 +104,27 @@
                                     {
 
                                         "type":"project",
+                                        "title":"Graph Object Notation",
+                                        "description":"Javascript Graph object parser/serializer, intended for easy graph import into GraphQL static endpoints and data consistency accross the client/server.\nSuperset of the JSON data format.",
+                                        "links":[
+                                            {
+                                                "url":"https://gon.arthurj.now.sh/playground",
+                                                "text":"GON playground"
+                                            },
+                                            {
+                                                "url":"https://github.com/MakeItHappenDev/Graph-Object-Notation",
+                                                "text":"Source code",
+                                                "platform":"Github"
+                                            },
+                                            {
+                                                "url":"https://www.npmjs.com/package/graph-object-notation",
+                                                "text":"NPM package"
+                                            }
+                                        ]
+                                    },
+                                    {
+
+                                        "type":"project",
                                         "title":"Resume.js",
                                         "description":"Dynamic resume fetching data from a JSON file or API.\nMade with Gatsby and now.sh",
                                         "links":[
@@ -125,28 +146,23 @@
                                 "data":[
                                     {
                                         "type":"project",
+                                        "title":"LaunchLeap",
+                                        "description":"Crowdsourcing/survey platform.\n \nCoded from scratch using PHP, HTML5/JQUERY (React for newer parts), MySQL.\n Used by private/public organizations in Quebec for Insight Campaigns.",
+                                        "links":[
+                                            {
+                                                "url":"https://launchleap.com",
+                                                "text":"LaunchLeap"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type":"project",
                                         "title":"MakeItHappen",
                                         "description":"MVP of a platform to collect problems from the users' daily life, and find solution providers to solve them.\nDeploying a platform with database and Server-Side Rendering on a serverless architecture.\nUsing Nextjs, Mongo Atlas, Zeit.co serverless.",
                                         "links":[
                                             {
                                                 "url":"https://makeithappen.dev",
                                                 "text":"MakeItHappen.dev"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "type":"project",
-                                        "title":"Stylo",
-                                        "description":"Online text processor for scholars, focused on metadata and scientific paper publishing.\nExports in most formats used within the scientific community (XML, PDF, MD+YAML, LaTeX, etc).\nMade using Gatsby/react, Express/GraphQL, docker.\n Used actively by about 100 researchers across the world.",
-                                        "links":[
-                                            {
-                                                "url":"https://stylo.ecrituresnumeriques.ca",
-                                                "text":"Stylo"
-                                            },
-                                            {
-                                                "url":"https://github.com/EcrituresNumeriques/stylo",
-                                                "text":"Source code",
-                                                "platform":"Github"
                                             }
                                         ]
                                     },
@@ -168,12 +184,17 @@
                                     },
                                     {
                                         "type":"project",
-                                        "title":"LaunchLeap",
-                                        "description":"Crowdsourcing/survey platform.\n \nCoded from scratch using PHP, HTML5/JQUERY (React for newer parts), MySQL.\n Used by private/public organizations in Quebec for Insight Campaigns.",
+                                        "title":"Stylo",
+                                        "description":"Online text processor for scholars, focused on metadata and scientific paper publishing.\nExports in most formats used within the scientific community (XML, PDF, MD+YAML, LaTeX, etc).\nMade using Gatsby/react, Express/GraphQL, docker.\n Used actively by about 100 researchers across the world.",
                                         "links":[
                                             {
-                                                "url":"https://launchleap.com",
-                                                "text":"LaunchLeap"
+                                                "url":"https://stylo.ecrituresnumeriques.ca",
+                                                "text":"Stylo"
+                                            },
+                                            {
+                                                "url":"https://github.com/EcrituresNumeriques/stylo",
+                                                "text":"Source code",
+                                                "platform":"Github"
                                             }
                                         ]
                                     }
