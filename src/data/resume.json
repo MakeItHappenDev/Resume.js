@@ -11,11 +11,18 @@
                             {
                                 "title":"Work Experiences",
                                 "data":[
+                                   {
+                                        "type":"experience",
+                                        "date":"2020 - Present",
+                                        "title":"Principal Engineer at Welbi",
+                                        "description":"Joined as Senior Developer to help solidify the platform.\nWorked on scalability issues to ease the 40x customer base.\nReleased halo features like WYSIWIG calendar to help sign new clients and upsell old ones.\nGuidance of the development team relating to Architecture and Technology while scaling up",
+                                        "location":"Remote"
+                                    },
                                     {
                                         "type":"experience",
-                                        "date":"2019 - present",
-                                        "title":"Freelancer / Contractor",
-                                        "description":"Planning and coding MVPs for clients.\nDeployement using docker containers or serverless.\nDevelopments in JavaScript (nodejs backends, next/React frontends) using state machines and faunaDB/MongoDB",
+                                        "date":"2019 - 2020",
+                                        "title":"Contractor for the University of Montreal",
+                                        "description":"Planning and coding MVPs for researcher.\nDeployement using docker containers or serverless.\nDevelopments in JavaScript (nodejs backends, next/React frontends)\n Maintenance of older codebases",
                                         "location":"Remote"
                                     },
                                     {
@@ -35,30 +42,24 @@
                                     {
                                         "type":"experience",
                                         "date": "2013 - 2014",
-                                        "title": "Webmaster at Les Publications du Quartier Libre",
-                                        "description": "Web administration of the student newspaper of the University of Montreal.",
+                                        "title": "Developer at Les Publications du Quartier Libre",
+                                        "description": "Web administration of the student newspaper of the University of Montreal.\n Adding new features like photo/video galleries",
                                         "location": "Montreal, Quebec, Canada"
-                                      },
-                                      {
-                                        "type":"experience",
-                                        "date": "2011 - 2012",
-                                        "title": "Technician at Canal+",
-                                        "description": "Technician for the Canal+ French TV station.\nCabling, Guest preparation and video recording",
-                                        "location": "Paris, France"
-                                      },
-                                      {
-                                        "type":"experience",
-                                        "date": "2009 - 2010",
-                                        "title": "GameShow demonstrator, Sony Computer Entertainment Europe",
-                                        "description": "Setup and logistic of Playstation European game show booths.\nGamer feedback gathering and reporting.",
-                                        "location": "Paris, France"
                                       }
                                 ]
 
                             },
                             {
                                 "title":"Education",
-                                "data":[
+                                "data":[                               
+                                    {
+                                        "type":"education",
+                                        "date":"Winter 2020",
+                                        "title":"TripleByte Alumni, top 10% Front-End enginneer",
+                                        "level":"Online class",
+                                        "institution":"Triplebyte",
+                                        "location":"Remote"
+                                    },
                                     {
                                         "type":"education",
                                         "date":"Summer 2019",
@@ -125,17 +126,12 @@
                                     {
 
                                         "type":"project",
-                                        "title":"Resume.js",
-                                        "description":"Dynamic resume fetching data from a JSON file or API.\nMade with Gatsby and now.sh",
+                                        "title":"Welbi",
+                                        "description":"Management software aimed at improving the life of senior in retirement homes / long term care facilities",
                                         "links":[
                                             {
-                                                "url":"https://arthur.juchereau.com",
-                                                "text":"This resume"
-                                            },
-                                            {
-                                                "url":"https://github.com/MakeItHappenDev/Resume.js",
-                                                "text":"Source code",
-                                                "platform":"Github"
+                                                "url":"https://welbi.co",
+                                                "text":"About Welbi"
                                             }
                                         ]
                                     }
@@ -152,17 +148,6 @@
                                             {
                                                 "url":"https://launchleap.com",
                                                 "text":"LaunchLeap"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "type":"project",
-                                        "title":"MakeItHappen",
-                                        "description":"MVP of a platform to collect problems from the users' daily life, and find solution providers to solve them.\nDeploying a platform with database and Server-Side Rendering on a serverless architecture.\nUsing Nextjs, Mongo Atlas, Zeit.co serverless.",
-                                        "links":[
-                                            {
-                                                "url":"https://makeithappen.dev",
-                                                "text":"MakeItHappen.dev"
                                             }
                                         ]
                                     },
@@ -195,6 +180,17 @@
                                                 "url":"https://github.com/EcrituresNumeriques/stylo",
                                                 "text":"Source code",
                                                 "platform":"Github"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type":"project",
+                                        "title":"MakeItHappen",
+                                        "description":"MVP of a platform to collect problems from the users' daily life, and find solution providers to solve them.\nDeploying a platform with database and Server-Side Rendering on a serverless architecture.\nUsing Nextjs, Mongo Atlas, Zeit.co serverless.",
+                                        "links":[
+                                            {
+                                                "url":"https://makeithappen.dev",
+                                                "text":"MakeItHappen.dev"
                                             }
                                         ]
                                     }
@@ -242,7 +238,7 @@
                         "type":"profile",
                         "data":[
                             "Full-stack developer",
-                            "Founder of MakeItHappen.dev",
+                            "Principal Engineer at Welbi",
                             "Maintainer of the GraphObjectNotation library",
                             "TripleByte alumni"
                         ]
